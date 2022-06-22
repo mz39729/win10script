@@ -1,23 +1,19 @@
-# Ultimate Windows Toolbox
-This script is the culmination of many scripts and gists from github with features of my own. I am building this script to be a swiss army knife of Windows tools to help setup and optimize machines.
+# Caja de herramientas definitiva de Windows
+Este script es la culminación de muchos scripts y esencias de github de Chris Titus con características propias. Estoy creando este script para que sea una navaja suiza de las herramientas de Windows para ayudar a configurar y optimizar las máquinas.
 
-## My Additions
-- One command to run
-- Full GUI implementation
-- Winget install
-- Install popular programs with one click
-- O&O Shutup 10 CFG and Run
-- Dark/Light mode
-- Semi-configurable
+#Mis Modificaciones
+- Traducción al español
+- Ajustes de vista
+- Modificacion de parametros y ajuste de codigo
+- Eliminacion de elementos pocos relevantes 
 
-## How to Run
-Paste this command into Powershell (admin):
+## Como Correrlo
+Abra como Administrador Powershell (admin) y Pegue este comando:
+
 ```
-iex ((New-Object System.Net.WebClient).DownloadString('https://git.io/JJ8R4'))
-```
-Or, shorter:
-```
-iwr -useb https://git.io/JJ8R4 | iex
+iex ((New-Object System.Net.WebClient).DownloadString('http://win.migzam.com'))
 ```
 
-For complete details check out https://christitus.com/debloat-windows-10-2020/
+
+Creditos: github.com/ChrisTitusTech
+
